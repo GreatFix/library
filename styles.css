@@ -1,0 +1,115 @@
+::-webkit-scrollbar {
+  /* chrome based */
+  width: 0px; /* ширина scrollbar'a */
+  background: transparent; /* опционально */
+}
+
+html {
+  -ms-overflow-style: none; /* IE 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+p,
+blockquote,
+table,
+th,
+td,
+embed,
+object {
+  padding: 0;
+  margin: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+th,
+var {
+  font-weight: normal;
+  font-style: normal;
+}
+ul {
+  list-style: none;
+}
+caption,
+th {
+  text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+q:before,
+q:after {
+  content: "";
+}
+a,
+ins {
+  text-decoration: none;
+}
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#add {
+  position: fixed;
+  top: 25%;
+  right: 0;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.date-comment {
+  font-size: 0.5em;
+}
+.btn {
+  line-height: 1 !important;
+}
+th,
+td {
+  text-align: center !important;
+}
